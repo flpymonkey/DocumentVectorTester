@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIG_NUM_SZ	computesecprod.c	21;"	d	file:
+BIG_NUM_SZ	secure_vector_computations.c	20;"	d	file:
+BIG_NUM_SZ	secure_vector_computations_bckup.c	20;"	d	file:
+BIG_NUM_SZ	test_mp_2.c	18;"	d	file:
+Java_preprocess_EncryptNativeC_encrypt_1vec_1to_1file	secure_vector_computations.c	/^	JNIEXPORT jint JNICALL Java_preprocess_EncryptNativeC_encrypt_1vec_1to_1file$/;"	f
+Java_preprocess_EncryptNativeC_encrypt_1vec_1to_1file	secure_vector_computations_bckup.c	/^	JNIEXPORT jint JNICALL Java_preprocess_EncryptNativeC_encrypt_1vec_1to_1file$/;"	f
+Java_preprocess_EncryptNativeC_read_1encrypt_1vec_1from_1file_1comp_1inter_1sec_1prod	secure_vector_computations.c	/^	JNIEXPORT jint JNICALL Java_preprocess_EncryptNativeC_read_1encrypt_1vec_1from_1file_1comp_1inter_1sec_1prod$/;"	f
+Java_preprocess_EncryptNativeC_read_1encrypt_1vec_1from_1file_1comp_1inter_1sec_1prod	secure_vector_computations_bckup.c	/^	JNIEXPORT jint JNICALL Java_preprocess_EncryptNativeC_read_1encrypt_1vec_1from_1file_1comp_1inter_1sec_1prod$/;"	f
+KEY_FILE_NAME	computesecprod.h	4;"	d
+KEY_FILE_NAME	encryptvector.h	4;"	d
+KEY_SIZE_BASE10	computesecprod.c	20;"	d	file:
+KEY_SIZE_BASE10	secure_vector_computations.c	19;"	d	file:
+KEY_SIZE_BASE10	secure_vector_computations_bckup.c	19;"	d	file:
+KEY_SIZE_BASE10	test_mp_2.c	17;"	d	file:
+KEY_SIZE_BINARY	computesecprod.c	19;"	d	file:
+KEY_SIZE_BINARY	secure_vector_computations.c	18;"	d	file:
+KEY_SIZE_BINARY	secure_vector_computations_bckup.c	18;"	d	file:
+KEY_SIZE_BINARY	test_mp_2.c	16;"	d	file:
+VSIZE	computesecprod.c	18;"	d	file:
+VSIZE	dot_modified.c	10;"	d	file:
+VSIZE	secure_vector_computations.c	17;"	d	file:
+VSIZE	secure_vector_computations_bckup.c	17;"	d	file:
+VSIZE	test_mp_2.c	15;"	d	file:
+_Included_preprocess_EncryptNativeC	preprocess_EncryptNativeC.h	6;"	d
+_Included_preprocess_EncryptNativeC	preprocess_EncryptNativeC_bckup.h	6;"	d
+big_temp	computesecprod.c	/^mpz_t big_temp;$/;"	v
+big_temp	dot_modified.c	/^mpz_t big_temp;$/;"	v
+big_temp	secure_vector_computations.c	/^mpz_t big_temp;$/;"	v
+big_temp	secure_vector_computations_bckup.c	/^mpz_t big_temp;$/;"	v
+big_temp	test_mp_2.c	/^mpz_t big_temp;$/;"	v
+clear	computesecprod.c	/^void clear(){$/;"	f
+clear	dot_modified.c	/^void clear(){$/;"	f
+clear	secure_vector_computations.c	/^void clear(){$/;"	f
+clear	secure_vector_computations_bckup.c	/^void clear(){$/;"	f
+clear	test_mp_2.c	/^void clear(){$/;"	f
+d	computesecprod.c	/^mpz_t d;               \/\/d=lcm(p-1, q-1), the private key$/;"	v
+d	dot_modified.c	/^mpz_t d;               \/\/d=lcm(p-1, q-1), the private key$/;"	v
+d	secure_vector_computations.c	/^mpz_t d;               \/\/d=lcm(p-1, q-1), the private key$/;"	v
+d	secure_vector_computations_bckup.c	/^mpz_t d;               \/\/d=lcm(p-1, q-1), the private key$/;"	v
+d	test_mp_2.c	/^mpz_t d;               \/\/d=lcm(p-1, q-1), the private key$/;"	v
+d_inverse	computesecprod.c	/^mpz_t d_inverse;       \/\/d^{-1} mod n^2$/;"	v
+d_inverse	dot_modified.c	/^mpz_t d_inverse;       \/\/d^{-1} mod n^2$/;"	v
+d_inverse	secure_vector_computations.c	/^mpz_t d_inverse;       \/\/d^{-1} mod n^2$/;"	v
+d_inverse	secure_vector_computations_bckup.c	/^mpz_t d_inverse;       \/\/d^{-1} mod n^2$/;"	v
+d_inverse	test_mp_2.c	/^mpz_t d_inverse;       \/\/d^{-1} mod n^2$/;"	v
+decrypt	computesecprod.c	/^void decrypt(mpz_t c){$/;"	f
+decrypt	dot_modified.c	/^void decrypt(mpz_t c){$/;"	f
+decrypt	secure_vector_computations.c	/^void decrypt(mpz_t c){$/;"	f
+decrypt	secure_vector_computations_bckup.c	/^void decrypt(mpz_t c){$/;"	f
+decrypt	test_mp_2.c	/^void decrypt(mpz_t c){$/;"	f
+encrypt	computesecprod.c	/^void encrypt(mpz_t c, int m){ $/;"	f
+encrypt	dot_modified.c	/^void encrypt(mpz_t c, int m){ $/;"	f
+encrypt	secure_vector_computations.c	/^void encrypt(mpz_t c, int m){ $/;"	f
+encrypt	secure_vector_computations_bckup.c	/^void encrypt(mpz_t c, int m){ $/;"	f
+encrypt	test_mp_2.c	/^void encrypt(mpz_t c, int m){ $/;"	f
+encrypt_vec_to_file	secure_vector_computations.c	/^int encrypt_vec_to_file( int vsizelocal, const char * input_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+encrypt_vec_to_file	secure_vector_computations_bckup.c	/^int encrypt_vec_to_file( int vsizelocal, const char * input_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+encrypt_vec_to_file	test_mp_2.c	/^int encrypt_vec_to_file( int vsizelocal, const char * input_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+g_key_file_name	computesecprod.c	/^char g_key_file_name[256];$/;"	v
+g_key_file_name	secure_vector_computations.c	/^char g_key_file_name[256];$/;"	v
+g_key_file_name	secure_vector_computations_bckup.c	/^char g_key_file_name[256];$/;"	v
+g_key_file_name	test_mp_2.c	/^char g_key_file_name[256];$/;"	v
+gen_random_input	computesecprod.c	/^void gen_random_input(int v[], int size){$/;"	f
+gen_random_input	dot_modified.c	/^void gen_random_input(int v[], int size){$/;"	f
+gen_random_input	secure_vector_computations.c	/^void gen_random_input(int v[], int size){$/;"	f
+gen_random_input	secure_vector_computations_bckup.c	/^void gen_random_input(int v[], int size){$/;"	f
+gen_random_input	test_mp_2.c	/^void gen_random_input(int v[], int size){$/;"	f
+get_n_and_d_from_file	computesecprod.c	/^int get_n_and_d_from_file()$/;"	f
+get_n_and_d_from_file	dot_modified.c	/^int get_n_and_d_from_file()$/;"	f
+get_n_and_d_from_file	secure_vector_computations.c	/^int get_n_and_d_from_file()$/;"	f
+get_n_and_d_from_file	secure_vector_computations_bckup.c	/^int get_n_and_d_from_file()$/;"	f
+get_n_and_d_from_file	test_mp_2.c	/^int get_n_and_d_from_file()$/;"	f
+get_random_r	computesecprod.c	/^void get_random_r(){$/;"	f
+get_random_r	dot_modified.c	/^void get_random_r(){$/;"	f
+get_random_r	secure_vector_computations.c	/^void get_random_r(){$/;"	f
+get_random_r	secure_vector_computations_bckup.c	/^void get_random_r(){$/;"	f
+get_random_r	test_mp_2.c	/^void get_random_r(){$/;"	f
+get_random_r_given_modulo	computesecprod.c	/^void get_random_r_given_modulo( mpz_t random_no, mpz_t modulo )$/;"	f
+get_random_r_given_modulo	secure_vector_computations.c	/^void get_random_r_given_modulo( mpz_t random_no, mpz_t modulo )$/;"	f
+get_random_r_given_modulo	secure_vector_computations_bckup.c	/^void get_random_r_given_modulo( mpz_t random_no, mpz_t modulo )$/;"	f
+get_random_r_given_modulo	test_mp_2.c	/^void get_random_r_given_modulo( mpz_t random_no, mpz_t modulo )$/;"	f
+init	computesecprod.c	/^void init(){$/;"	f
+init	dot_modified.c	/^void init(){$/;"	f
+init	secure_vector_computations.c	/^void init(){$/;"	f
+init	secure_vector_computations_bckup.c	/^void init(){$/;"	f
+init	test_mp_2.c	/^void init(){$/;"	f
+main	computesecprod.c	/^  int main(int argc, char *argv[])$/;"	f
+main	dot_modified.c	/^int main(int argc, char* argv[]){$/;"	f
+main	main.c	/^int main(int argc, char* argv[]){$/;"	f
+main	test_mp_2.c	/^int main(int *argc, char *args[])$/;"	f
+n	computesecprod.c	/^mpz_t n;$/;"	v
+n	dot_modified.c	/^mpz_t n;$/;"	v
+n	secure_vector_computations.c	/^mpz_t n;$/;"	v
+n	secure_vector_computations_bckup.c	/^mpz_t n;$/;"	v
+n	test_mp_2.c	/^mpz_t n;$/;"	v
+n_plus_1	computesecprod.c	/^mpz_t n_plus_1;        \/\/n+1, the public key$/;"	v
+n_plus_1	dot_modified.c	/^mpz_t n_plus_1;        \/\/n+1, the public key$/;"	v
+n_plus_1	secure_vector_computations.c	/^mpz_t n_plus_1;        \/\/n+1, the public key$/;"	v
+n_plus_1	secure_vector_computations_bckup.c	/^mpz_t n_plus_1;        \/\/n+1, the public key$/;"	v
+n_plus_1	test_mp_2.c	/^mpz_t n_plus_1;        \/\/n+1, the public key$/;"	v
+n_square	computesecprod.c	/^mpz_t n_square;        \/\/n^2$/;"	v
+n_square	dot_modified.c	/^mpz_t n_square;        \/\/n^2$/;"	v
+n_square	secure_vector_computations.c	/^mpz_t n_square;        \/\/n^2$/;"	v
+n_square	secure_vector_computations_bckup.c	/^mpz_t n_square;        \/\/n^2$/;"	v
+n_square	test_mp_2.c	/^mpz_t n_square;        \/\/n^2$/;"	v
+r	computesecprod.c	/^mpz_t r;$/;"	v
+r	dot_modified.c	/^mpz_t r;$/;"	v
+r	secure_vector_computations.c	/^mpz_t r;$/;"	v
+r	secure_vector_computations_bckup.c	/^mpz_t r;$/;"	v
+r	test_mp_2.c	/^mpz_t r;$/;"	v
+r_pow_n	computesecprod.c	/^mpz_t r_pow_n;         \/\/r^n mod n^2$/;"	v
+r_pow_n	dot_modified.c	/^mpz_t r_pow_n;         \/\/r^n mod n^2$/;"	v
+r_pow_n	secure_vector_computations.c	/^mpz_t r_pow_n;         \/\/r^n mod n^2$/;"	v
+r_pow_n	secure_vector_computations_bckup.c	/^mpz_t r_pow_n;         \/\/r^n mod n^2$/;"	v
+r_pow_n	test_mp_2.c	/^mpz_t r_pow_n;         \/\/r^n mod n^2$/;"	v
+read_decrypt_mul_encrypt_write_encrypted_rand_prod	test_mp_2.c	/^int read_decrypt_mul_encrypt_write_encrypted_rand_prod( const char * input_interm_prods_file_name, const char * output_encrypt_rand_prod_file_name, const char * key_file_name)$/;"	f
+read_encrypt_vec_from_file_comp_inter_sec_prod	computesecprod.c	/^int read_encrypt_vec_from_file_comp_inter_sec_prod( int vsizelocal, const char * input_encr_file_name, const char * input_tfidf_vec_file_name, const char * input_bin_vec_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+read_encrypt_vec_from_file_comp_inter_sec_prod	secure_vector_computations.c	/^int read_encrypt_vec_from_file_comp_inter_sec_prod( int vsizelocal, const char * input_encr_tfidf_file_name, const char * input_encr_bin_file_name, const char * input_tfidf_vec_file_name, const char * input_bin_vec_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+read_encrypt_vec_from_file_comp_inter_sec_prod	secure_vector_computations_bckup.c	/^int read_encrypt_vec_from_file_comp_inter_sec_prod( int vsizelocal, const char * input_encr_tfidf_file_name, const char * input_encr_bin_file_name, const char * input_tfidf_vec_file_name, const char * input_bin_vec_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+read_encrypt_vec_from_file_comp_inter_sec_prod	test_mp_2.c	/^int read_encrypt_vec_from_file_comp_inter_sec_prod( int vsizelocal, const char * input_encr_tfidf_file_name, const char * input_encr_bin_file_name, const char * input_tfidf_vec_file_name, const char * input_bin_vec_file_name, const char * output_file_name, const char * key_file_name)$/;"	f
+state	computesecprod.c	/^gmp_randstate_t state; \/\/seed for randomization$/;"	v
+state	dot_modified.c	/^gmp_randstate_t state; \/\/seed for randomization$/;"	v
+state	secure_vector_computations.c	/^gmp_randstate_t state; \/\/seed for randomization$/;"	v
+state	secure_vector_computations_bckup.c	/^gmp_randstate_t state; \/\/seed for randomization$/;"	v
+state	test_mp_2.c	/^gmp_randstate_t state; \/\/seed for randomization$/;"	v
+vsize	computesecprod.c	/^int vsize;$/;"	v
+vsize	dot_modified.c	/^int vsize;$/;"	v
+vsize	secure_vector_computations.c	/^int vsize;$/;"	v
+vsize	secure_vector_computations_bckup.c	/^int vsize;$/;"	v
+vsize	test_mp_2.c	/^int vsize;$/;"	v
