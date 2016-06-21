@@ -3,12 +3,15 @@ package com.example.android.documentvectortester;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ExpandableListView;
 import android.widget.ListView;
 
 import com.example.DocMagnitudeTreeMap;
 import com.example.DocVectorInfo;
 import com.example.GenerateTFIDFVector;
 import com.example.Indexer;
+import com.example.android.documentvectortester.Adapter.ExpandListAdapter;
+import com.example.android.documentvectortester.ExpandListGroup.ExpandListGroup;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
     // change to correct index values within assets folder
     private String queryDocName = "???";
     private ListView lv = (ListView) findViewById(R.id.main_list);
+
+    private ExpandListAdapter ExpAdapter;
+    private ArrayList<ExpandListGroup> ExpListItems;
+    private ExpandableListView ExpandList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
