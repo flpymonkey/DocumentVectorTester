@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private String dataDir = "assets";
     // change to correct index values within assets folder
     private String queryDocName = "???";
-    private ListView lv = (ListView) findViewById(R.id.main_list);
+    //private ListView lv = (ListView) findViewById(R.id.main_list); //switced to expand list view
 
     private ExpandListAdapter ExpAdapter;
     private ArrayList<ExpandListGroup> ExpListItems;
@@ -63,12 +63,17 @@ public class MainActivity extends AppCompatActivity {
             filenames.add((String)it1.next()); // will always be Strings
         }
 
+        ExpandList = (ExpandableListView) findViewById(R.id.main_list);
+        ExpListItems = SetStandardGroups();
+        ExpAdapter = new ExpandListAdapter(MainActivity.this, ExpListItems);
+        ExpandList.setAdapter(ExpAdapter);
+
         //Adaptors are used to prepare information to be displayed on the specified view
         // middle term is text view within list
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, filenames);
+        //ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, filenames);
 
         //simple adapter for headers
-        lv.setAdapter(arrayAdapter);
+        //lv.setAdapter(arrayAdapter);
         // term weight for word num weight times inverse document frequency scaled up to 10^4 (row int value)
     }
 }
