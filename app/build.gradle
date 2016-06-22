@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
+    targetCompatibility = '1.7'
+    sourceCompatibility = '1.7'
 
     defaultConfig {
         applicationId "com.example.android.documentvectortester"
@@ -25,6 +27,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/lucene-analyzers-common-6.0.1.jar')
     compile project(':preprocess')
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
 }
