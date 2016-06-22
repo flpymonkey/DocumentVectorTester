@@ -10,6 +10,7 @@ public class EncryptNativeC
 	{
 		System.loadLibrary("secure_vector_computations");
 	}
+	//write java portion and translate into C code. Use function signitures that are auto generated using Java Edge command
 	//Code to integrate C code using Native Java Interface
 	public native int encrypt_vec_to_file(int vsizelocal, String input_file_name, String output_file_name, String keyFileName);
 	public native int read_encrypt_vec_from_file_comp_inter_sec_prod(int vsizelocal, String input_encr_tfidf_file_name, String input_encr_bin_file_name, String input_unencr_tfidf_file_name, String input_unencr_bin_file_name, String output_file_name, String keyFileName);
