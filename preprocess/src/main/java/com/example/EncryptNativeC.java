@@ -9,6 +9,7 @@ public class EncryptNativeC
 	static
 	{
 		System.loadLibrary("secure_vector_computations");
+		System.loadLibrary("secure_vector_computations");
 	}
 	//write java portion and translate into C code. Use function signitures that are auto generated using Java Edge command
 	//Code to integrate C code using Native Java Interface
@@ -18,6 +19,7 @@ public class EncryptNativeC
 	public native int derandomize_encr_encr_sim_prod( String input_rand_encr_prod_file_name, String input_derand_file_name, String output_encrypted_sim_val_file_name, String key_file_name);
 	public native double decrypt_sim_score( String input_encr_prod_file_name, String output_sim_score_file_name, String key_file_name);
 
+	public native int test(int a, int b);
 	/*public static void main(String [] args)
 	{
 		new EncryptNativeC().encrypt_vec_to_file(7, "/home/nuplavikar/IdeaProjects/DocSimilaritySecureApp/encr_q.txt", "encrypted_q.txt");
