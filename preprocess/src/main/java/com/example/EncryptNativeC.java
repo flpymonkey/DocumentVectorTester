@@ -9,7 +9,6 @@ public class EncryptNativeC
 	static
 	{
 		System.loadLibrary("secure_vector_computations");
-		System.loadLibrary("secure_vector_computations");
 	}
 	//write java portion and translate into C code. Use function signitures that are auto generated using Java Edge command
 	//Code to integrate C code using Native Java Interface
