@@ -1,5 +1,3 @@
-package com.example;
-
 /**
  * Created by nuplavikar on 2/29/16.
  */
