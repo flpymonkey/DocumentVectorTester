@@ -1,4 +1,4 @@
-import com.example.DocVectorInfo;
+package com.example.android.documentvectortester;
 
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.AtomicReader;
@@ -9,7 +9,6 @@ import org.apache.lucene.index.Fields;
 import org.apache.lucene.index.IndexNotFoundException;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexableField;
-import org.apache.lucene.index.PostingsEnum;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.index.Terms;
 import org.apache.lucene.index.TermsEnum;
@@ -204,7 +203,7 @@ public class GenerateTFIDFVector {
                     int postingLstLngth = 0;
                     boolean isTermInDoc = false;
                     freq = 0;
-                    while (postingEntry != PostingsEnum.NO_MORE_DOCS)
+                    while (postingEntry != DocsEnum.NO_MORE_DOCS)
                     {
                         //termInDocs = termInDocs + postingsEnum.docID() + "; ";
                         //termInDocsPostingEnumEntry  = termInDocsPostingEnumEntry + postingEntry + "; ";

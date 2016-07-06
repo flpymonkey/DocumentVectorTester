@@ -1,6 +1,5 @@
-import com.example.DocMagnitudeTreeMap;
+package com.example.android.documentvectortester;
 
-import java.awt.dnd.InvalidDnDOperationException;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeMap;
@@ -48,7 +47,7 @@ public class DocVectorInfo {
         String fileName;
         if( fileNames.equals(docMagnitudeTreeMap.keySet()) == false )
         {
-            InvalidDnDOperationException invalidDnDOperationException = new InvalidDnDOperationException("File name integrity wrong!!");
+            Exception invalidDnDOperationException = new Exception("File name integrity wrong!!");
             invalidDnDOperationException.printStackTrace();
             System.exit(1);
         }

@@ -6,10 +6,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ListView;
 
-import com.example.DocMagnitudeTreeMap;
-import com.example.DocVectorInfo;
-import com.example.GenerateTFIDFVector;
-import com.example.Indexer;
 import com.example.android.documentvectortester.Adapter.ExpandListAdapter;
 import com.example.android.documentvectortester.ExpandListChild.ExpandListChild;
 import com.example.android.documentvectortester.ExpandListGroup.ExpandListGroup;
